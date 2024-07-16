@@ -6313,7 +6313,7 @@ local TeleportCheck = false
 Players.LocalPlayer.OnTeleport:Connect(function(State)
 	if KeepInfYield and (not TeleportCheck) and queueteleport then
 		TeleportCheck = true
-		queueteleport("https://raw.githubusercontent.com/yeseater/raaa/main/iy.lua'))()")
+		queueteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/yeseater/raaa/main/iy.lua'))()")
 	end
 end)
 
